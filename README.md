@@ -1,22 +1,32 @@
 # TechWeek Website - Prova de Aptidão Profissional (PAP)
 
-Este projeto consiste num website informativo desenvolvido de raiz como Prova de Aptidão Profissional (PAP) para a conclusão do Curso Profissional [Substitui pelo nome do teu curso, ex: Técnico de Gestão e Programação de Sistemas Informáticos] no 12.º ano. 
+Este é um website dinâmico desenvolvido de raiz como Prova de Aptidão Profissional (PAP) para a conclusão do Curso Profissional do 12.º ano. A plataforma foi desenhada para servir como o portal oficial da TechWeek, uma semana dedicada à divulgação de tecnologia, inovação, palestras e workshops.
 
-O objetivo principal da plataforma é centralizar e divulgar todas as informações associadas à **TechWeek**, uma semana inteiramente dedicada à tecnologia, inovação, palestras e workshops.
+Por se tratar de uma aplicação dinâmica e estruturada, o projeto conta com uma arquitetura assente em programação do lado do servidor (back-end) e gestão automatizada de componentes.
 
 ## Características e Funcionalidades
 
-*   **Portal Informativo:** Interface estruturada para apresentar o conceito do evento, as datas, os temas abordados e os principais destaques da semana tecnológica.
-*   **Agenda e Programação:** Secção dedicada à exibição do cronograma das atividades, palestras, oradores convidados e workshops integrados no evento.
-*   **Design Responsivo:** Layout adaptado e testado para garantir uma navegação fluida em computadores, tablets e dispositivos móveis.
-*   **Navegação Intuitiva:** Arquitetura de informação limpa e focada na experiência do utilizador, facilitando o acesso rápido aos pontos fulcrais do evento.
+*   **Renderização Dinâmica:** Páginas estruturadas em PHP que permitem uma gestão modular do conteúdo do evento, como agendas, oradores e atividades.
+*   **Gestão de Dependências:** Integração com o Composer para controlo, instalação e carregamento automatizado de bibliotecas externas (Autoload).
+*   **Design Responsivo:** Interface otimizada através de folhas de estilo modernas para garantir total compatibilidade com computadores, tablets e telemóveis.
+*   **Navegação e Interatividade:** Scripts em JavaScript nativo responsáveis pela manipulação dinâmica da interface e melhoria da experiência do utilizador.
 
 ## Tecnologias Utilizadas
 
-*   **HTML5:** Estruturação semântica e acessível das páginas do website.
-*   **CSS3:** Estilização moderna, controlo de layout e regras de responsividade (media queries).
-*   **JavaScript:** Lógica de front-end para adicionar interatividade e dinamismo à navegação.
+*   **PHP:** Motor de processamento do lado do servidor para a construção da lógica da plataforma.
+*   **Composer:** Gestor de pacotes utilizado para organizar as dependências e o carregamento de classes do projeto.
+*   **HTML5:** Estruturação semântica de todas as vistas da aplicação.
+*   **CSS3:** Estilização visual, tipografia e regras de adaptação a diferentes tamanhos de ecrã (style.css / styles.css).
+*   **JavaScript (Vanilla):** Implementação de comportamentos interativos no front-end.
 
-## Contexto Académico e Profissional
+## Estrutura Principal do Repositório
 
-A Prova de Aptidão Profissional representa a simulação de um projeto de software real no final do ciclo de estudos secundários. O desenvolvimento deste website permitiu consolidar competências em design de interfaces, arquitetura de informação, boas práticas de codificação no front-end e gestão de prazos de entrega.
+*   `index.php` - Ponto de entrada principal da aplicação.
+*   `composer.json` / `composer.lock` - Configuração de dependências do ecossistema PHP.
+*   `vendor/` - Diretório gerado automaticamente pelo Composer para o carregamento de pacotes e scripts de autoload.
+*   `css/` - Ficheiros de estilização e responsividade da plataforma.
+*   `js/` - Lógica de interação do lado do cliente.
+
+## Contexto Académico
+
+A Prova de Aptidão Profissional exige a aplicação prática dos conhecimentos adquiridos ao longo de três anos de formação técnica. Este projeto reflete competências consolidadas em desenvolvimento web full-stack, organização modular de ficheiros, manipulação de servidores locais e gestão do ciclo de vida de uma aplicação.
