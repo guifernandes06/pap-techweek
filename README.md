@@ -18,7 +18,7 @@ Por se tratar de uma aplicação dinâmica e estruturada, o projeto conta com um
 *   **Composer:** Gestor de pacotes utilizado para organizar as dependências e o carregamento de classes do projeto.
 *   **HTML5:** Estruturação semântica de todas as vistas da aplicação.
 *   **CSS3:** Estilização visual, tipografia e regras de adaptação a diferentes tamanhos de ecrã (style.css / styles.css).
-*   **JavaScript (Vanilla):** Implementação de comportamentos interativos no front-end.
+*   **JavaScript:** Implementação de comportamentos interativos no front-end.
 
 ## Estrutura Principal do Repositório
 

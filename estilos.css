@@ -1,0 +1,224 @@
+*{
+box-sizing: border-box;
+}
+
+/* limpa o fluxo da página, para que as colunas não saiam do sítio */
+.row::after {
+content: "";
+clear: both;
+display: table;
+}
+
+/* Todas essas colunas devem estar a flutuar para a esquerda e ter um padding de 15px: */
+[class*="col-"] {
+float:left;
+padding: 15px;
+border: 1px;
+}
+
+[class*="col-"] {
+width: 100%;
+}
+
+/* ISTO AGORA VEM AQUI , PARA TABLETS. REPARE NO col-s- */
+@media only screen and (min-width: 600px) {
+
+.col-s-1 {width : 8.33%;}
+.col-s-2 {width : 16.66%;}
+.col-s-3 {width : 25% ;}
+.col-s-4 {width : 33.33%;}
+.col-s-5 {width : 41.66%;}
+.col-s-6 {width : 50%;}
+.col-s-7 {width : 58.33%;}
+.col-s-8 {width : 66.66%;}
+.col-s-9 {width : 75%;}
+.col-s-10 {width : 83.33%;}
+.col-s-11 {width : 91.66%;}
+.col-s-12 {width : 100%;}
+
+}
+
+/* PARA DESKTOP AGORA ENTRA ASSIM , COM LARGURA MíNIMA E NãO MÁXIMA */
+/*divisão em 12 colunas, com 8.33% cada*/
+@media only screen and (min-width: 768px) {
+
+.col-1 {width : 8.33%;}
+.col-2 {width : 16.66%;}
+.col-3 {width : 25% ;}
+.col-4 {width : 33.33%;}
+.col-5 {width : 41.66%;}
+.col-6 {width : 50%;}
+.col-7 {width : 58.33%;}
+.col-8 {width : 66.66%;}
+.col-9 {width : 75%;}
+.col-10 {width : 83.33%;}
+.col-11 {width : 91.66%;}
+.col-12 {width : 100%;}
+
+}
+
+/* letra da pagina */
+html {
+font-family:"Lucida Sans" , sans-serif;
+}
+
+/*aspeto link */
+a {
+color: #000000;
+text-decoration: none;
+}
+
+.a:hover {
+    color: #79d4fb;
+}
+
+/* header e footer */
+.header {
+background-color: #ffffff;  
+}
+
+.header_logo {
+background-color: #ffffff;
+height: auto;
+}
+
+.footer {
+background-color: #87CEFA;
+height: auto;
+}
+
+.footer_contact {
+background-color: #87CEFA;
+color: #000000;
+text-align: center;
+}
+
+.footer_local {
+background-color: #87CEFA;
+color: #000000;
+text-align: center;
+}
+
+.footer_social {
+background-color: #87CEFA;
+color: #000000;
+text-align: center;
+}
+
+/* menu */
+.menu ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+text-align: right;
+}
+
+.menu li{
+padding: 9px;
+margin-bottom: 10px;
+background-color: #ffffff;
+color: #000000;
+display: inline-block;
+}
+
+/* quando o rato passa por cima */
+.menu li:hover{
+color: #00b3ff;
+}
+
+
+/* homepage e en */
+.img_techweek {
+background-color: #ffffff00;
+height: auto;
+}
+
+.text_techweek {
+background-color: #ffffff00;
+color: #000000;
+height: auto;
+}
+
+.back_techweek {
+background-image: url("imagens/backgroung.png");
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+background-position: center;
+height: auto;
+}
+
+.programa {
+background-color: #ffffff;
+color: #000000;
+font-weight: bold;
+height: auto;
+}
+
+.programacao_img {
+background-color: #ffffff;
+margin-bottom: 15px;
+}
+
+.oradores {
+background-color: #4682B4;
+color: #000000;
+font-weight: bold;
+height: auto;
+margin-bottom: 5px;
+}
+
+.descr_orador {
+color: #000000;
+margin-bottom: 30px;
+height: auto;
+}
+
+
+/* pagina eventos e eventosen */
+.eventos {
+color: #000000;
+font-weight: bold;
+height: auto;
+}
+
+.eventos_img {
+margin-bottom: 10px;
+height: auto;
+}
+
+
+/* contactos e contacten */
+.organizador {
+background-color: #6cceff;
+color: #000000;
+font-weight: bold;
+height: auto;
+}
+
+.descr_organizador {
+color: #000000;
+height: auto;
+}
+
+
+/* feedback e feedbacken */
+.feedback {
+    background-color: #ffffff;
+    color: #000000;
+    height: auto;
+}
+
+
+/* contacts e contacten */
+.form {
+    background-color: #ffffff;
+    height: auto;
+    margin-top: 10px;
+}
+
+
+/* erro para php */
+.error{
+    color: #ff0000;
+}
