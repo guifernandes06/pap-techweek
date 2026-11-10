@@ -124,7 +124,7 @@ if ($result) {
         $mail->Host       = 'smtp-mail.outlook.com';  // Define o servidor SMTP para enviar através de
         $mail->SMTPAuth   = true;              // Habilita a autenticação SMTP
         $mail->Username   = 'suporte-techweek24@outlook.pt'; // Nome de usuário SMTP
-        $mail->Password   = 'TechWeek#2024'; // Senha de aplicativo SMTP
+        $mail->Password   = '******'; // Senha de aplicativo SMTP
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS; // Habilita criptografia TLS com STARTTLS
         $mail->Port       = 587;               // Porta TCP para conectar-se
 
