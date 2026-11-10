@@ -3,6 +3,6 @@
     $hn = 'localhost';
     $db = 'form';
     $un = 'guilhermefernandes';
-    $pw = 'password123';
+    $pw = '*****';
 
 ?>
